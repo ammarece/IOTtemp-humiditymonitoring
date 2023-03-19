@@ -10,8 +10,8 @@
 #define DHTTYPE DHT11 // DHT11 Sensor Type
 
 char auth[] = "97fcBYB-SIrrSC64YUF29XCJlGO2Lj9q"; // Blynk Auth Token
-char ssid[] = "iMaK"; // WiFi SSID
-char pass[] = "gate@024"; // WiFi Password
+char ssid[] = "Your WiFi Name"; // WiFi SSID
+char pass[] = "Your WiFi password"; // WiFi Password
 
 DHT dht(DHTPIN, DHTTYPE); // Initialize DHT11 Sensor
 
